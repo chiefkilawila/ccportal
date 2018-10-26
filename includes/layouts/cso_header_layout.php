@@ -211,19 +211,19 @@ a.article, a.article:hover {
                 <ul class="list-unstyled components">
                     <p>Navigation</p>
                     <li class="active">
-                        <a href="#menu" >Add new Member</a>
+                        <a href="/ccportal-master/web/cso_area/create_new_member.php" >Add new Member</a>
 
                     </li>
                     <li>
-                        <a href="#menu">Manage Members</a>
+                        <a href="/ccportal-master/web/cso_area/manage_member.php">Manage Members</a>
 
 
                     </li>
                     <li>
-                        <a href="#">Add New Activity</a>
+                        <a href="/ccportal-master/web/cso_area/add_new_activity.php">Add New Activity</a>
                     </li>
                     <li>
-                        <a href="#">Manage Activities</a>
+                        <a href="/ccportal-master/web/cso_area/manage_activities.php">Manage Activities</a>
                     </li>
                     <li>
                         <a href="#">Geo-Mapping</a>
