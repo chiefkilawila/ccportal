@@ -22,15 +22,15 @@ include("../../includes/layouts/cso_header_layout.php");
                             </div>
 
                           
-                           <!--<div class="col-md-6">
-                            <div class="form-group row">
+                           <!--
+                            <div class="form-group">
                                 <label for="colFormLabel" class="col-sm-2 col-form-label">Last Name</label>
-                                <div class="col-sm-10">
+                                
                                   <input type="text" class="form-control" id="colFormLabel" placeholder="last name">
-                                </div>
+                              
                               </div> 
 
-                            </div>-->
+                            -->
                           
 
                           
@@ -42,9 +42,9 @@ include("../../includes/layouts/cso_header_layout.php");
 
                             </div>
 
-                          </div>
+                          
 
-                              <div class="form-group">
+                              <div class="row">
                               
                                 <div class=" col-md-6 ">
                                     <label for="colFormLabel" class="control-label">Activity Duration</label>
@@ -93,7 +93,7 @@ include("../../includes/layouts/cso_header_layout.php");
                                       
                                     
 
-                                    <div class="form-group">
+                                    <div class="row">
                                      
                                         <div class=" col-sm-6 ">
                                             <label for="colFormLabel" class=" control-label">Start Date</label>
