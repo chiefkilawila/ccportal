@@ -13,6 +13,8 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/en-gb.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker-standalone.min.css"></script>
+            <script src="/ccportal-master/web/js/moment.min.js"></script>
+            <script src="/ccportal-master/web/js/bootstrap-datetimepicker.min.js"></script>
             <script type="text/javascript">
                 $(document).ready(function () {
 
