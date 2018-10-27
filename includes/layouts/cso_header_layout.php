@@ -9,7 +9,7 @@
 
         <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!-- Our Custom CSS 
+        <!-- Our Custom CSS
         <link rel="stylesheet" href="style2.css">-->
         <link rel="stylesheet" href="/ccportal-master/web/css/bootstrap-datetimepicker.min.css">
         <!-- Scrollbar Custom CSS -->
@@ -211,19 +211,19 @@ a.article, a.article:hover {
                 <ul class="list-unstyled components">
                     <p>Navigation</p>
                     <li class="active">
-                        <a href="/ccportal-master/web/cso_area/create_new_member.php" >Add new Member</a>
+                        <a href="../../web/cso_area/create_new_member.php" >Add new Member</a>
 
                     </li>
                     <li>
-                        <a href="/ccportal-master/web/cso_area/manage_member.php">Manage Members</a>
+                        <a href="../../web/cso_area/manage_members.php">Manage Members</a>
 
 
                     </li>
                     <li>
-                        <a href="/ccportal-master/web/cso_area/add_new_activity.php">Add New Activity</a>
+                        <a href="../../web/cso_area/add_new_activity.php">Add New Activity</a>
                     </li>
                     <li>
-                        <a href="/ccportal-master/web/cso_area/manage_activities.php">Manage Activities</a>
+                        <a href="../../web/cso_area/manage_activities.php">Manage Activities</a>
                     </li>
                     <li>
                         <a href="#">Geo-Mapping</a>
