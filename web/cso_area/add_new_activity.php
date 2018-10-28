@@ -136,7 +136,7 @@ include("../../includes/layouts/cso_header_layout.php");
 
                            
                              
-                                <div class="form-group">
+                                <div class="form-group ">
 
                                  <button type="button" class="btn btn-primary  btn-block">Create new Activity</button>
                               </div>
