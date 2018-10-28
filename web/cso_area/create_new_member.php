@@ -19,80 +19,55 @@ include("../../includes/layouts/cso_header_layout.php");
                          </div>
                         </div> -->
 
-                        <div class="container">
+                        <div class="col-md-12">
 
                             <div class="row">
-                            	<div class="col-md-6">
-                                <div class="form-group row">
-                                    <label for="colFormLabel" class="col-sm-2 col-form-label">First Name</label>
-                                    <div class="col-sm-10">
+                            <div class="row">
+                                <div class=" col-md-6">
+                                    <label for="colFormLabel" class=" control-label">First Name</label>
+                                    
                                       <input type="text" class="form-control" id="colFormLabel" placeholder="firstname">
-                                    </div>
+                                    
                                   </div>
 
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="form-group row">
-                                      <label for="colFormLabel" class="col-sm-2 col-form-label">Last Name</label>
-                                      <div class="col-sm-10">
+                                
+                                
+                                  <div class=" col-md-6 ">
+                                      <label for="colFormLabel" class=" control-label">Last Name</label>
+                                      
                                         <input type="text" class="form-control" id="colFormLabel" placeholder="last name">
-                                      </div>
-                                    </div>
-
-                                  </div>
+    
+                                </div>
                                 </div>
 
-                                <div class="row">
-                                  <div class="col-md-6">
-                                    <div class="form-group row">
-                                        <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
-                                        <div class="col-sm-10">
+                                
+                                    <div class="form-group ">
+                                        <label for="colFormLabel" class=" control-label">Email</label>
+                                      
                                           <input type="email" class="form-control" id="colFormLabel" placeholder="members email">
                                         </div>
-                                      </div>
+                                      
 
-                                    </div>
-                                  </div>
 
-                                    <div class="row">
-                                    <div class="col-md-6">
-                                      <div class="form-group row">
-                                          <label for="colFormLabel" class="col-sm-2 col-form-label">Password</label>
-                                          <div class="col-sm-10">
+                                    
+                                    
+                                       <div class="form-group ">
+                                          <label for="colFormLabel" class=" control-label">Password</label>
+                                          
                                             <input type="text" class="form-control" id="colFormLabel" placeholder="password">
-                                          </div>
                                         </div>
-
-                                      </div>
-
-                                      <div class="col-md-6">
-                                        <div class="form-group row">
-                                            <label for="colFormLabel" class="col-sm-2 col-form-label">Confirm Password</label>
-                                            <div class="col-sm-10">
+                   
+                                      
+                                        <div class=" form-group ">
+                                            <label for="colFormLabel" class=" control-label">Confirm Password</label>
+                                            
                                               <input type="text" class="form-control" id="colFormLabel" placeholder="confirm password">
-                                            </div>
-                                          </div>
-
+          
                                         </div>
-                                      </div>
+                                      
 
-                                        <div class="row">
-                                        <div class="col-md-6">
-                                          <div class="form-group row">
-                                              <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
-                                              <div class="col-sm-10">
-                                                <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
-                                              </div>
-                                            </div>
-
-                                          </div>
-
-                                        </div>
-
-                                        <div class="row">
-                                        <div class="col-md-6">
                                           <div class="form-group">
-                                             <label for="exampleFormControlSelect1">Example select</label>
+                                             <label for="exampleFormControlSelect1" class="conrol-label">Example select</label>
                                              <select class="form-control" id="exampleFormControlSelect1">
                                                <option>Select</option>
                                                <option>ON-stanby</option>
@@ -100,22 +75,16 @@ include("../../includes/layouts/cso_header_layout.php");
 
                                              </select>
                                            </div>
-                                        </div>
-                                      </div>
-
-
-                                    <div class="row">
-                                    <div class="col-md-6">
+                                       
                                       <div class="form-group">
 
-<button type="button" class="btn btn-primary btn-lg btn-block">Create new member</button>
+                <button type="button" class="btn btn-primary  btn-block">Create new member</button>
                                     </div>
                                  </div>
                                </div>
 
 
-                        	</div>
-                        </div>
+                        	
 										</div>
 									</div>
 									</div>

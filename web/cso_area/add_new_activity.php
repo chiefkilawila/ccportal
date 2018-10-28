@@ -1,7 +1,7 @@
 <?php
 include("../../includes/layouts/cso_header_layout.php");
  ?>
-<div class="container-fluid">
+<div class="container">
 	<div class="row">
 							<div class="col-lg-12">
 								<div class="card">
@@ -11,55 +11,53 @@ include("../../includes/layouts/cso_header_layout.php");
 									</div>
 									<div class="card-content table-responsive">
 
-                  <div class="container">
+                  <div class="col-md-8">
 
                       <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group row">
-                              <label for="colFormLabel" class="col-sm-4 col-form-label">Activity Title</label>
-                              <div class="col-sm-10">
-                                <input type="text" class="form-control" id="colFormLabel" placeholder="activity title">
-                              </div>
+                        
+                          <div class="form-group ">
+                              <label for="colFormLabel" class=" control-label">Activity Title</label>
+                                                              <input type="text" class="form-control" id="colFormLabel" placeholder="activity title">
+                             
                             </div>
 
-                          </div>
-                          <div class="col-md-6">
-                            <!-- <div class="form-group row">
+                          
+                           <!--
+                            <div class="form-group">
                                 <label for="colFormLabel" class="col-sm-2 col-form-label">Last Name</label>
-                                <div class="col-sm-10">
+                                
                                   <input type="text" class="form-control" id="colFormLabel" placeholder="last name">
-                                </div>
-                              </div> -->
+                              
+                              </div> 
+
+                            -->
+                          
+
+                          
+                          
+                            <div class="form-group ">
+                              <label for="exampleFormControlTextarea1" class="control-label">Activity Short Description</label>
+                              <textarea class="form-control"  id="product_purpose_statement" name="product_purpose_statement" value="<?= isset($_POST['product_purpose_statement']) ? $_POST['product_purpose_statement'] : ''; ?>" ></textarea>
+                           
 
                             </div>
-                          </div>
 
-                          <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group row">
-                              <label for="exampleFormControlTextarea1">Activity Short Description</label>
-                              <textarea class="form-control"  id="product_purpose_statement" name="product_purpose_statement" value="<?= isset($_POST['product_purpose_statement']) ? $_POST['product_purpose_statement'] : ''; ?>" rows="3"></textarea>
-                            </div>
-
-                            </div>
-
-                          </div>
+                          
 
                               <div class="row">
-                              <div class="col-md-6">
-                                <div class="form-group row">
-                                    <label for="colFormLabel" class="col-sm-4 col-form-label">Activity Duration</label>
-                                    <div class="col-sm-10">
+                              
+                                <div class=" col-md-6 ">
+                                    <label for="colFormLabel" class="control-label">Activity Duration</label>
+                                    
                                       <input type="text" class="form-control" id="colFormLabel" placeholder="in days, years or months">
-                                    </div>
+                                   
                                   </div>
 
-                                </div>
-
-                                <div class="col-md-6">
-                                  <div class="form-group row">
-                                    <div class="form-group">
-                                       <label for="exampleFormControlSelect1">select type</label>
+ 								
+                                
+                                 
+                                    <div class=" col-md-6">
+                                       <label for="exampleFormControlSelect1" class="control-label">select type</label>
                                        <select class="form-control" id="exampleFormControlSelect1">
                                          <option>Select</option>
                                          <option>days</option>
@@ -68,58 +66,64 @@ include("../../includes/layouts/cso_header_layout.php");
                                        </select>
                                      </div>
 
-                                  </div>
+                                  
                                 </div>
 
-                                <div class="row">
-                                  <div class="col-md-6">
-                                    <div class="form-group row">
-                                        <label for="colFormLabel" class="col-sm-4 col-form-label">Facilitators</label>
-                                        <div class="col-sm-10">
+                               
+                                  
+                                    <div class="form-group ">
+                                        <label for="colFormLabel" class="control-label">Facilitators</label>
+                                        
                                           <input type="text" class="form-control" id="colFormLabel" placeholder="activity facilitators">
-                                        </div>
-                                      </div>
+                                        
+                                      
 
                                     </div>
-                                  </div>
+                                  
 
-                                  <div class="row">
-                                    <div class="col-md-6">
-                                      <div class="form-group row">
-                                          <label for="colFormLabel" class="col-sm-4 col-form-label">Expected Output</label>
-                                          <div class="col-sm-10">
+                                
+                                    
+                                      <div class="form-group ">
+                                          <label for="colFormLabel" class="cotrol-label">Expected Output</label>
+                                          
                                             <input type="text" class="form-control" id="colFormLabel" placeholder="Expected Output">
                                           </div>
-                                        </div>
+                                       
 
-                                      </div>
-                                    </div>
+                                      
+                                    
 
                                     <div class="row">
-                                      <div class="col-md-6">
-                                        <div class="form-group row">
-                                            <label for="colFormLabel" class="col-sm-4 col-form-label">Start Date</label>
-                                            <div class="col-sm-10">
-                                              <input type="text" class="form-control" id="colFormLabel" placeholder="start date">
+                                     
+                                        <div class=" col-sm-6 ">
+                                            <label for="colFormLabel" class=" control-label">Start Date</label>
+                                            <div class="input-group datetimepicker">
+                                              <input type="text" class="form-control " id="colFormLabel" placeholder="start date">
+                                              <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
                                             </div>
-                                          </div>
+                                          
 
                                         </div>
 
-                                        <div class="col-md-6">
-                                          <div class="form-group row">
-                                              <label for="colFormLabel" class="col-sm-4 col-form-label">End Date</label>
-                                              <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="colFormLabel" placeholder="end date">
-                                              </div>
+                                       
+                                          <div class=" col-sm-6">
+                                              <label for="colFormLabel" class="control-label">End Date</label>
+                                              <div class="input-group datetimepicker">
+                                                <input type="text" class="form-control  id="colFormLabel" placeholder="end date">
+                                                     <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span
+                                              ></div>
                                             </div>
 
-                                          </div>
+                                         
                                       </div>
-                                  <div class="row">
-                                  <div class="col-md-6">
+                                  
+                                  
                                     <div class="form-group">
-                                       <label for="exampleFormControlSelect1">Activity Status</label>
+                                       <label for="exampleFormControlSelect1" class="control-label">Activity Status</label>
                                        <select class="form-control" id="exampleFormControlSelect1">
                                          <option>Select</option>
                                          <option>ON-stanby</option>
@@ -127,21 +131,20 @@ include("../../includes/layouts/cso_header_layout.php");
 
                                        </select>
                                      </div>
-                                  </div>
-                                </div>
+                                  
 
 
-                              <div class="row">
-                              <div class="col-md-6">
+                           
+                             
                                 <div class="form-group">
 
-                                 <button type="button" class="btn btn-primary btn-lg btn-block">Create new Activity</button>
+                                 <button type="button" class="btn btn-primary  btn-block">Create new Activity</button>
                               </div>
                            </div>
-                         </div>
+                        
 
 
-                    </div>
+                    
 										</div>
 									</div>
                 </div>
@@ -151,3 +154,9 @@ include("../../includes/layouts/cso_header_layout.php");
                   <?php
                   include("../../includes/layouts/cso_layout_footer.php");
                    ?>
+<script>
+$(document).ready(function (){
+	$('.datetimepicker').datetimepicker();
+	
+});
+</script>
