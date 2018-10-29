@@ -204,13 +204,13 @@ a.article, a.article:hover {
             <!-- Sidebar Holder -->
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>Header as you want </h3></h3>
+                    <h3>For Research </h3></h3>
                 </div>
 
                 <ul class="list-unstyled components">
-                    <p>Dummy Heading</p>
+                    <p>Navigation</p>
                     <li class="active">
-                        <a href="#menu" >Animación</a>
+                        <a href="/ccportal/web/researchers/re_home.php" >Register</a>
 
                     </li>
                     <li>
@@ -228,7 +228,7 @@ a.article, a.article:hover {
                         <a href="#">Acerca</a>
                     </li>
                     <li>
-                        <a href="#">contacto</a>
+                        <a href="#">Contact</a>
                     </li>
 
 
