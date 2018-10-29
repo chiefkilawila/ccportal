@@ -43,6 +43,9 @@ include("../../includes/layouts/cso_header_layout.php");
                                       <td>Otto</td>
                                       <td>mark@forumcc.or.tz</td>
                                       <td style="color: green;">Active</td>
+                                      <td><button type="button" class="btn btn-success">Update</button></td>
+                                      <td><button type="button" class="btn btn-primary">view activities</button></td>
+                                      <td><button type="button" class="btn btn-danger">Delete</button></td>
 
                                     </tr>
                                     <tr>
@@ -51,6 +54,9 @@ include("../../includes/layouts/cso_header_layout.php");
                                       <td>Thornton</td>
                                       <td>jacob@forumcc.or.tz</td>
                                       <td style="color: red;">suspended</td>
+                                      <td><button type="button" class="btn btn-success">Update</button></td>
+                                      <td><button type="button" class="btn btn-primary">view activities</button></td>
+                                      <td><button type="button" class="btn btn-danger">Delete</button></td>
 
                                     </tr>
                                     <tr>
@@ -59,6 +65,9 @@ include("../../includes/layouts/cso_header_layout.php");
                                       <td>the Bird</td>
                                       <td>larry@forumcc.or.tz</td>
                                       <td style="color: green;">Active</td>
+                                      <td><button type="button" class="btn btn-success">Update</button></td>
+                                      <td><button type="button" class="btn btn-primary">view activities</button></td>
+                                      <td><button type="button" class="btn btn-danger">Delete</button></td>
 
                                     </tr>
                                   </tbody>
