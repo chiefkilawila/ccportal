@@ -15,7 +15,7 @@ include("../../includes/layouts/cso_header_layout.php");
 									</div>
 									<div class="card-content table-responsive">
 								
-                        <div class="col-md-6">
+                        <div class="col-md-10">
 
                             <div class="row">
                             
@@ -55,11 +55,11 @@ include("../../includes/layouts/cso_header_layout.php");
 
                                              </select>
                                            </div>
-                                       
-                                      <div class="form-group">
+                                        </div>
+                                      <div class="form-group ">
 
-                <button type="button" class="btn btn-primary  btn-block">Create new member</button>
-                                    </div>
+                <button type="button" class="btn btn-primary  btn-block">Update member</button>
+                                   
                                  </div>
                                </div>
 
