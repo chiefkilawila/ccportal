@@ -43,9 +43,9 @@ include("../../includes/layouts/cso_header_layout.php");
                                       <td>Otto</td>
                                       <td>mark@forumcc.or.tz</td>
                                       <td style="color: green;">Active</td>
-                                      <td><button type="button" class="btn btn-success">Update</button></td>
-                                      <td><button type="button" class="btn btn-primary">view activities</button></td>
-                                      <td><button type="button" class="btn btn-danger">Delete</button></td>
+                                      <td><a href="../../web/cso_area/update_member.php"><button type="button" class="btn btn-success">Update</button></a></td>
+                                      <td><a href="../../web/cso_area/manage_activities.php"><button type="button" class="btn btn-primary">view activities</button></a></td>
+                                      <td><a href="../../web/cso_area/Delete_member.php"><button type="button" class="btn btn-danger">Delete</button></td></a>
 
                                     </tr>
                                     <tr>
@@ -54,9 +54,9 @@ include("../../includes/layouts/cso_header_layout.php");
                                       <td>Thornton</td>
                                       <td>jacob@forumcc.or.tz</td>
                                       <td style="color: red;">suspended</td>
-                                      <td><button type="button" class="btn btn-success">Update</button></td>
-                                      <td><button type="button" class="btn btn-primary">view activities</button></td>
-                                      <td><button type="button" class="btn btn-danger">Delete</button></td>
+                                      <td><a href="../../web/cso_area/update_member.php"><button type="button" class="btn btn-success">Update</button></a></td>
+                                      <td><a href="../../web/cso_area/manage_activities.php"><button type="button" class="btn btn-primary">view activities</button></a></td>
+                                      <td><a href="../../web/cso_area/Delete_member.php"><button type="button" class="btn btn-danger">Delete</button></td></a>
 
                                     </tr>
                                     <tr>
@@ -65,9 +65,9 @@ include("../../includes/layouts/cso_header_layout.php");
                                       <td>the Bird</td>
                                       <td>larry@forumcc.or.tz</td>
                                       <td style="color: green;">Active</td>
-                                      <td><button type="button" class="btn btn-success">Update</button></td>
-                                      <td><button type="button" class="btn btn-primary">view activities</button></td>
-                                      <td><button type="button" class="btn btn-danger">Delete</button></td>
+                                      <td><a href="../../web/cso_area/update_member.php"><button type="button" class="btn btn-success">Update</button></a></td>
+                                      <td><a href="../../web/cso_area/manage_activities.php"><button type="button" class="btn btn-primary">view activities</button></a></td>
+                                      <td><a href="../../web/cso_area/Delete_member.php"><button type="button" class="btn btn-danger">Delete</button></td></a>
 
                                     </tr>
                                   </tbody>
