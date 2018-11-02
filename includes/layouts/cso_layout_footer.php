@@ -26,5 +26,12 @@
                     });
                 });
       </script>
+      <script>
+      $(document).ready(function (){
+      	$('.datetimepicker').datetimepicker();
+
+      });
+      </script>
+
   </body>
 </html>

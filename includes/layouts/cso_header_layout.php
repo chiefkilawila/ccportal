@@ -201,6 +201,7 @@ a.article, a.article:hover {
 
 
 .wrimagecard{
+  /* padding: 20px; */
 	margin-top: 0;
     margin-bottom: 1.5rem;
     text-align: left;
@@ -237,7 +238,9 @@ a.wrimagecard:hover, .wrimagecard-topimage:hover {
     color: #525c65;
     transition: color 0.3s ease;
 }
-
+#myTabContent{
+  padding-top: 10px;
+}
 
 </style>
     </head>
@@ -254,37 +257,37 @@ a.wrimagecard:hover, .wrimagecard-topimage:hover {
 
                 <ul class="list-unstyled components">
                     <p>Navigation</p>
-                    <li class="active">
+                    <!-- <li class="active">
                         <a href="../../web/cso_area/create_new_member.php" >Add new Member</a>
-
                     </li>
                     <li>
                         <a href="../../web/cso_area/manage_members.php">Manage Members</a>
-
-
-
-
-                    </li>
-                    <li>
-
+                    </li> -->
+                    <li class="active">
                         <a href="../../web/cso_area/add_new_activity.php">Add New Activity</a>
                     </li>
                     <li>
-                        <a href="../../web/cso_area/manage_activities.php">Manage Activities</a>
-
-
+                        <a href="../../web/cso_area/cso_update_activity.php">Update Activity</a>
                     </li>
                     <li>
-                        <a href="#">Geo-Mapping</a>
+                        <a href="../../web/cso_area/all_activities.php">All Activities</a>
+                    </li>
+                    <li>
+                        <a href="#">Geo-Mapping Activities</a>
+                    </li>
+                    <!-- <li>
+                        <a href="../../web/cso_area/manage_activities.php">Manage Activities</a>
+                    </li> -->
+                    <li>
+                        <a href="#">Geo-Mapping CSOs </a>
+                    </li>
+                    <li>
+                        <a href="#">Collaborate </a>
                     </li>
                     <li>
                         <a href="#">logout</a>
                     </li>
-
-
                 </ul>
-
-
             </nav>
 
             <!-- Page Content Holder -->
