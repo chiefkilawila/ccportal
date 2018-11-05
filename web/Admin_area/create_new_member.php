@@ -30,73 +30,177 @@ include("../../includes/layouts/admin_header_layout.php");
 
                         <div class="col-md-12">
 
-                            <div class="row">
-                            <div class="row">
-                                <div class=" col-md-6">
-                                    <label for="colFormLabel" class=" control-label">First Name</label>
-                                    
-                                      <input type="text" class="form-control" id="colFormLabel" placeholder="firstname">
-                                    
-                                  </div>
+                           <div class="row">
+ <!-- <div class="col-md-3">
 
-                                
-                                
-                                  <div class=" col-md-6 ">
-                                      <label for="colFormLabel" class=" control-label">Last Name</label>
-                                      
-                                        <input type="text" class="form-control" id="colFormLabel" placeholder="last name">
+ </div> -->
+       <div id="pnl_admin" class="panel panel-default" >
+     <div class="panel-heading">
+       <h3 class="panel-title">Administrator</h3>
+     </div>
+     <div class="panel-body">
+       <form>
+         <fieldset class="form-group">
+           <fieldset class="form-group">
+             <label for="exampleInputEmail1">Name</label>
+             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+
+           </fieldset>
+           <label for="exampleInputEmail1">Email address</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+
+         </fieldset>
+        
+         <fieldset class="form-group">
+           <label for="exampleInputPassword1">Password</label>
+           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+         </fieldset>
+         <button type="submit" class="btn btn-primary">Submit</button>
+       </form>
+     </div>
     
-                                </div>
-                                </div>
+    </div>
+ 
+   <div id="pnl_reseacher" class="panel panel-default" style="display: none;">
+  <div class="panel-heading">
+    <h3 class="panel-title">Reseacher Registration</h3>
+  </div>
+  <div class="panel-body">
+    <form>
+      <fieldset class="form-group">
+        <fieldset class="form-group">
+          <label for="exampleInputEmail1">Full Name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 
-                                
-                                    <div class="form-group ">
-                                        <label for="colFormLabel" class=" control-label">Email</label>
-                                      
-                                          <input type="email" class="form-control" id="colFormLabel" placeholder="members email">
-                                        </div>
-                                      
+        </fieldset>
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        <small class="text-muted">We'll never share your email with anyone else.</small>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Region</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Studies</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </fieldset>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
 
-                                    
-                                    
-                                       <div class="form-group ">
-                                          <label for="colFormLabel" class=" control-label">Password</label>
-                                          
-                                            <input type="text" class="form-control" id="colFormLabel" placeholder="password">
-                                        </div>
-                   
-                                      
-                                        <div class=" form-group ">
-                                            <label for="colFormLabel" class=" control-label">Confirm Password</label>
-                                            
-                                              <input type="text" class="form-control" id="colFormLabel" placeholder="confirm password">
-          
-                                        </div>
-                                      
+    <!-- cso panel -->
+    
+      <div id="pnl_cso" class="panel panel-default" style="display: none;">
+     <div class="panel-heading">
+       <h3 class="panel-title">CSO Registration</h3>
+     </div>
+     <div class="panel-body">
+       <form>
+         <fieldset class="form-group">
+           <label for="exampleInputEmail1">Full Name</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 
-                                          <div class="form-group">
-                                             <label for="exampleFormControlSelect1" class="conrol-label">Example select</label>
-                                             <select class="form-control" id="exampleFormControlSelect1">
-                                               <option>Select</option>
-                                               <option>ON-stanby</option>
-                                               <option>To Be verified by User</option>
+         </fieldset>
+         <fieldset class="form-group">
+           <label for="exampleInputEmail1">Email address</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+           <small class="text-muted">We'll never share your email with anyone else.</small>
+         </fieldset>
+         <fieldset class="form-group">
+           <label for="exampleInputEmail1">Organization Title</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 
-                                             </select>
-                                           </div>
-                                       
-                                      <div class="form-group">
+         </fieldset>
+         <fieldset class="form-group">
+           <label for="exampleInputPassword1">Password</label>
+           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+         </fieldset>
+         <button type="submit" class="btn btn-primary">Submit</button>
+       </form>
+     </div>
+    </div>
+    
+    
+      <div id="pnl_consultant" class="panel panel-default" style="display: none;">
+     <div class="panel-heading">
+       <h3 class="panel-title">Consultant Registration</h3>
+     </div>
+     <div class="panel-body">
+       <form>
+         <fieldset class="form-group">
+           <fieldset class="form-group">
+             <label for="exampleInputEmail1">Name</label>
+             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 
-                <button type="button" class="btn btn-primary  btn-block">Create new member</button>
-                                    </div>
-                                                               
+           </fieldset>
+           <label for="exampleInputEmail1">Email address</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 
+         </fieldset>
+         <fieldset class="form-group">
+           <label for="exampleInputEmail1">Focus Area</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 
-                        	
-										</div>
-									</div>
-								
+         </fieldset>
+         <fieldset class="form-group">
+           <label for="exampleInputPassword1">Password</label>
+           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+         </fieldset>
+         <button type="submit" class="btn btn-primary">Submit</button>
+       </form>
+     </div>
+    </div>
+    
 </div></div>
-<?php
-include("../../includes/layouts/cso_layout_footer.php");
- ?>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('#usertype').on('change', function() {
+          if ( this.value == '1')
+          {
+            $("#pnl_reseacher").show();
+              $("#pnl_cso").hide();
+               $("#pnl_consultant").hide();
+               $("#pnl_admin").hide();
+          }else if (this.value == '2') {
+              $("#pnl_cso").show();
+              $("#pnl_reseacher").hide();
+              $("#pnl_consultant").hide();
+              $("#pnl_admin").hide();
+          }
+          else if (this.value == '3') {
+              $("#pnl_consultant").show();
+              $("#pnl_reseacher").hide();
+              $("#pnl_cso").hide();
+              $("#pnl_admin").hide();
+          }
+          else if (this.value == '4') {
+            $("#pnl_admin").show();
+              $("#pnl_consultant").hide();
+              $("#pnl_reseacher").hide();
+              $("#pnl_cso").hide();
+          }
+          else
+          {
+               $("#pnl_admin").hide();
+               $("#pnl_cso").hide();
+               $("#pnl_consultant").hide();
+               $("#pnl_reseacher").hide();
+          }
+        });
+        console.log("hellow");
+    });
+    </script>
+  
