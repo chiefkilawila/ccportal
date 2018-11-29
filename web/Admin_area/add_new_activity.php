@@ -1,5 +1,5 @@
 <?php
-include("../../includes/layouts/cso_header_layout.php");
+include("../../includes/layouts/admin_header_layout.php");
  ?>
 <div class="container">
 	<div class="row">
@@ -43,36 +43,31 @@ include("../../includes/layouts/cso_header_layout.php");
                             </div>
 
                           
-                          <div class="form-group">
-                    <label for="country">Country</label>
-                     <select class="form-control" id="country" name="country" value="<?= isset($_POST['country']) ? $_POST['country'] : ''; ?>">
-                       <option>SELECT</option>
-                       <option>Tanzania</option>
-                       <option>Uganda</option>
-                       <option>Kenya</option>
-                       <option>Rwanda</option>
-                     </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="formGroupExampleInput2">Region</label>
-                    <select class="form-control" id="region" name="region" value="<?= isset($_POST['region']) ? $_POST['region'] : ''; ?>" placeholder="">
-                    <option>SELECT</option>
-                       <option>Dar es Salaam</option>
-                       <option>Mwanza</option>
-                       <option>Arusha</option>
-                       <option>Dodoma</option>
-                     </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="formGroupExampleInput2">District</label>
-                    <select class="form-control" id="district" name="district" value="<?= isset($_POST['district']) ? $_POST['district'] : ''; ?>" placeholder="">
-                    <option>SELECT</option>
-                       <option>Kinondoni</option>
-                       <option>Ilala</option>
-                       <option>Temeke</option>
-                       <option>Ubungo</option>
-                     </select>
-                  </div>
+
+                              <div class="row">
+                              
+                                <div class=" col-md-6 ">
+                                    <label for="colFormLabel" class="control-label">Activity Duration</label>
+                                    
+                                      <input type="text" class="form-control" id="colFormLabel" placeholder="in days, years or months">
+                                   
+                                  </div>
+
+ 								
+                                
+                                 
+                                    <div class=" col-md-6">
+                                       <label for="exampleFormControlSelect1" class="control-label">select type</label>
+                                       <select class="form-control" id="exampleFormControlSelect1">
+                                         <option>Select</option>
+                                         <option>days</option>
+                                         <option>Months</option>
+                                          <option>Years</option>
+                                       </select>
+                                     </div>
+
+                                  
+                                </div>
 
                                
                                   
@@ -125,32 +120,6 @@ include("../../includes/layouts/cso_header_layout.php");
 
                                          
                                       </div>
-
-                                      
-                              <div class="row">
-                              
-                              <div class=" col-md-6 ">
-                                  <label for="colFormLabel" class="control-label">Activity Duration</label>
-                                  
-                                    <input type="text" class="form-control" id="colFormLabel" placeholder="in days, years or months">
-                                 
-                                </div>
-
-               
-                              
-                               
-                                  <div class=" col-md-6">
-                                     <label for="exampleFormControlSelect1" class="control-label">select type</label>
-                                     <select class="form-control" id="exampleFormControlSelect1">
-                                       <option>Select</option>
-                                       <option>days</option>
-                                       <option>Months</option>
-                                        <option>Years</option>
-                                     </select>
-                                   </div>
-
-                                
-                              </div>
                                   
                                   
                                     <div class="form-group">

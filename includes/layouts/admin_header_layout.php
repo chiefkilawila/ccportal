@@ -5,16 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title> CC Portal | CSO Home </title>
+        <title> CC Portal | Adminstrator</title>
 
         <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!-- Our Custom CSS-->
-        <link rel="stylesheet" href="../../web/css/style2.css">
-        <link rel="stylesheet" href="../../web/css/bootstrap-datetimepicker.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="style2.css">
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+
 <style>
   /*
     DEMO STYLE
@@ -195,50 +194,6 @@ a.article, a.article:hover {
     }
 }
 
-
-
-
-
-
-.wrimagecard{
-	margin-top: 0;
-    margin-bottom: 1.5rem;
-    text-align: left;
-    position: relative;
-    background: #fff;
-    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
-    border-radius: 4px;
-    transition: all 0.3s ease;
-}
-.wrimagecard .fa{
-	position: relative;
-    font-size: 70px;
-}
-.wrimagecard-topimage_header{
-padding: 20px;
-}
-a.wrimagecard:hover, .wrimagecard-topimage:hover {
-    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
-}
-.wrimagecard-topimage a {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-.wrimagecard-topimage_title {
-    padding: 20px 24px;
-    height: auto;
-    padding-bottom: 0.75rem;
-    position: relative;
-}
-.wrimagecard-topimage a {
-    border-bottom: none;
-    text-decoration: none;
-    color: #525c65;
-    transition: color 0.3s ease;
-}
-
-
 </style>
     </head>
     <body>
@@ -249,17 +204,18 @@ a.wrimagecard:hover, .wrimagecard-topimage:hover {
             <!-- Sidebar Holder -->
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>CSO dashboard </h3></h3>
+                    <h3> Administrator Dashboard</h3>
                 </div>
 
                 <ul class="list-unstyled components">
-                    <p>Navigation</p>
+                    <p style="font-size:800;">...</p>
+                
                     <li class="active">
-                        <a href="../../web/cso_area/create_new_member.php" >Add new Member</a>
+                        <a href="../../web/Admin_area/create_new_member.php" >Add new Member</a>
 
                     </li>
                     <li>
-                        <a href="../../web/cso_area/manage_members.php">Manage Members</a>
+                        <a href="../../web/Admin_area/manage_members.php">Manage Members</a>
 
 
 
@@ -267,10 +223,10 @@ a.wrimagecard:hover, .wrimagecard-topimage:hover {
                     </li>
                     <li>
 
-                        <a href="../../web/cso_area/add_new_activity.php">Add New Activity</a>
+                        <a href="../../web/Admin_area/add_new_activity.php">Add New Activity</a>
                     </li>
                     <li>
-                        <a href="../../web/cso_area/manage_activities.php">Manage Activities</a>
+                        <a href="../../web/Admin_area/manage_activities.php">Manage Activities</a>
 
 
                     </li>
@@ -283,7 +239,6 @@ a.wrimagecard:hover, .wrimagecard-topimage:hover {
 
 
                 </ul>
-
 
             </nav>
 
@@ -300,9 +255,10 @@ a.wrimagecard:hover, .wrimagecard-topimage:hover {
                             </button>
                         </div>
 
+                        
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Welcome, <strong>Jackson</strong></a></li>                            </ul>
+                                <li><a href="#">Welcome, <strong>Chief</strong></a></li>                            </ul>
                         </div>
                     </div>
                 </nav>

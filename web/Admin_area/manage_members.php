@@ -1,5 +1,5 @@
 <?php
-include("../../includes/layouts/cso_header_layout.php");
+include("../../includes/layouts/admin_header_layout.php");
  ?>
 <div class="container-fluid">
 	<div class="row">
