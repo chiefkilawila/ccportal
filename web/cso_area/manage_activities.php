@@ -28,7 +28,9 @@ include("../../includes/layouts/cso_header_layout.php");
                               <li class="nav-item">
                                 <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Members Activities</a>
                               </li>
-
+                              <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Collaboration</a>
+                              </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
                               <div class="tab-pane fade in active" id="home" role="tabpanel" aria-labelledby="home-tab">
